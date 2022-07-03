@@ -1,7 +1,7 @@
 import React from "react";
-import TodosList from "../TodosList";
-import InputTodo from "./
-import Header from './
+import TodosList from "./TodosList";
+import InputTodo from "./ClassBased/InputTodo";
+import Header from './ClassBased/Header'
 import { v4 as uuidv4 } from "uuid";
 class TodoContainer extends React.Component {
   
